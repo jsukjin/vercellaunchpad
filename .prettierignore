@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+
+# Generated files
+.turbo/
+coverage/
+
+# Strapi specific
+strapi/dist/
+strapi/build/
+strapi/public/uploads/
+strapi/database/
+strapi/types/generated/
+strapi/src/api/*/content-types/*/schema.json
+strapi/src/components/*/*.json
+
+# Next.js specific
+next/.next/
+next/out/
+
+# Astro specific
+astro/.astro/
+
+# Nuxt specific
+nuxt/.nuxt/
+nuxt/.output/
+
+# TanStack specific
+tanstack/.output/
+tanstack/.vinxi/
+tanstack/.tanstack/
+tanstack/src/routeTree.gen.ts
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+.tmp
